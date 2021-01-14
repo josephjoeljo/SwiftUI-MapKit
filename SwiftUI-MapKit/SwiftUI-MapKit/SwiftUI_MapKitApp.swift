@@ -16,8 +16,14 @@ class LocationManager:ObservableObject{
     init(){ }
     
     func getLocation(){
+        
+        //General or Sepecific Location
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        
+        //Request only when in use Auth
         locationManager.requestWhenInUseAuthorization()
+        
+        //Updates the loc manager with real-time location
         locationManager.startUpdatingLocation()
     }
 }
