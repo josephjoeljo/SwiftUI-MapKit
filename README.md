@@ -9,4 +9,4 @@ MapAnnotation
 MapPin
 MapMarker
 
-For more info on MapKit visit the Apple Developper Documentation.
+For more info on MapKit visit the Apple Developper Documentation: https://developer.apple.com/documentation/mapkit/map
